@@ -1,8 +1,8 @@
-# ReactYoutubeApp
+# ReactReduxYoutubeApp
 
-Its a simple mock youtube application developed using react.
+It's a simple mock youtube application developed using react and redux.
 
-###Getting Started###
+##Getting Started
 
 There are two methods for getting started with this repo.
 
