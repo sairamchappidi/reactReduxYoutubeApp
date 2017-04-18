@@ -7,7 +7,7 @@ export default class videoList extends Component {
         const {videos,onVideoSelect} = this.props;
         //const url = this.props.videos[0].snippet.thumbnails.high.url;
         return (
-           <ul>
+           <ul className='collection'>
                {videos.map((video)=>{
                     return(
                         <VideoListItem video={video} key={video.etag} onVideoSelect={onVideoSelect}/>
