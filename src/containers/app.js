@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 //components
 import SearchBar from './../components/search-bar';
 import VideoDetails from './../components/video-details';
-import VideoList from './../components/video-list';
+import VideoListContainer from './video-list-container'
 //actions
 import { onVideoSelect,
         fetchData } from './../actions'
@@ -20,7 +20,7 @@ class App extends Component {
             <div clas>
             <SearchBar onChangeHandler={this.props.fetchData}/>
             <VideoDetails video = {this.props.selectedVideo} />
-            <VideoList videos = {this.props.videos} onVideoSelect = {this.props.onVideoSelect}/>
+            <VideoListContainer />
             </div>
             )
           }

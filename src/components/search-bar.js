@@ -12,7 +12,7 @@ export default class SearchBar extends Component{
   }
   render(){
     return (
-      <input className = 'search-bar' onChange={this.handleInputChange}  ref={(el) => {this.searchInputTitle = el;}}/>
+      <input className = 'search-bar' placeholder = 'Search...' onChange={this.handleInputChange}  ref={(el) => {this.searchInputTitle = el;}}/>
     )
   }
 }
